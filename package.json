@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "@reachievable/next-auth-extra-scope",
   "version": "0.0.0",
   "repository": "https://github.com/krajina2/next-auth.git#extra-scope",
   "scripts": {
