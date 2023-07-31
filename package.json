@@ -1,8 +1,7 @@
 {
   "name": "root",
   "version": "0.0.0",
-  "private": true,
-  "repository": "https://github.com/nextauthjs/next-auth.git",
+  "repository": "https://github.com/krajina2/next-auth.git#extra-scope",
   "scripts": {
     "build:app": "turbo run build --filter=next-auth-app",
     "build:docs": "turbo run build --filter=docs",
@@ -50,16 +49,6 @@
     "node": "^16.13.0 || ^18.12.0"
   },
   "packageManager": "pnpm@7.23.0",
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/balazsorban44"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/nextauth"
-    }
-  ],
   "pnpm": {
     "patchedDependencies": {
       "@balazsorban/monorepo-release@0.1.8": "patches/@balazsorban__monorepo-release@0.1.8.patch"
